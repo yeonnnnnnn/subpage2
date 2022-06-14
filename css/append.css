@@ -1,0 +1,329 @@
+#wrap, .container {
+  width: 1180px;
+  margin: auto;
+}
+.main-tit {
+  width: 1180px;
+  margin-bottom: 27px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 800;
+  color: #272727;
+}
+
+
+/* header & footer */
+.logo {
+  background-color: #272727;
+}
+.sub-logo {
+  background: none;
+  position: absolute;
+  top: 7px;
+  left: 20px;
+}
+.logo img {
+  width: auto;
+  height: 24px;
+  padding: 7px 20px;
+}
+footer {
+  width: 1180px;
+  margin: auto;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #3A3838;
+}
+#footer:after {
+  display: none;
+}
+#footer address {
+  padding: 0;
+}
+#footer address span {
+  color: #b3b3b3;
+}
+
+
+
+/* main-company */
+.main-company {
+  padding: 42px 0 15px;
+  background: none;
+  background-color: #272727;
+}
+.main-company h1 {
+  margin-bottom: 37px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.main-company p {
+  font-size: 12px;
+  line-height: 14px;
+}
+.main-company .more {
+  width: 148px;
+  height: 26px;
+  margin-top: 15px;
+  padding: 4px;
+  background: #1C1A1A;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+
+/* list control */
+#mainWrap .bx-controls-direction a {
+  top: 50%;
+  margin-top: -90px;
+  width: 57px;
+  height: 57px;
+  background: rgba(0,0,0,0.4) url(https://www.odmusical.com/images/main/visual-arw.png) no-repeat 0 0;
+}
+#mainWrap .bx-controls-direction a.bx-prev {
+  left: 50px;
+}
+#mainWrap .bx-controls-direction a.bx-next {
+  right: 50px;
+  background-position: -58px 0;
+}
+
+
+/* main-production */
+.main-production {
+  padding: 26px 0 50px;
+  background: none;
+}
+
+.list-prdt li .info {
+  position: static;
+  margin-top: 0px;
+}
+.list-prdt li .info strong {
+  margin-top: 20px;
+  height: auto;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+}
+.list-prdt li .info .link a {
+  width: 105px;
+  height: 19px;
+  margin: 15px auto;
+  padding: 5px;
+  background-color: #1C1A1A;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 800;
+}
+.list-prdt li .info .link a:first-child {
+  background-color: #1C1A1A;
+}
+.list-prdt li .info .link a:nth-child(2) {
+  margin: -2px auto 0;
+  border: none;
+  background-color: #ffffff;
+  color: #1C1A1A;
+}
+.list-prdt li .link a:hover {
+  text-decoration: none;
+  font-size: 16px;
+  color: #1C1A1A;
+  background-color: #ffffff;
+  border-color: #1C1A1A;
+}
+
+
+/* main-sns */
+.main-sns {
+  padding: 7px 0;
+  background-color: #F8F8F8;
+}
+.main-sns .sns-box li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+.main-sns .sns-box img {
+  width: 40px;
+  height: 38px;
+}
+
+
+/* main-insta */
+.main-insta {
+  padding: 50px 0;
+}
+.main-insta .insta {
+  padding: 2px 8px 16px;
+}
+.main-insta .insta li {
+  padding: 14px 13px;
+}
+.main-insta .insta li img {
+  height: 128px;
+}
+
+
+/* main-video */
+.main-video {
+  padding: 23px 0 94px;
+  background: none;
+  background-color: #22252A;
+}
+.main-video h1 {
+  margin-bottom: 32px;
+}
+.main-video li {
+  padding: 5px 25px;
+  margin-right: -8px !important;
+}
+#mainWrap .main-video .bx-controls-direction a {
+ margin-top: -25px;
+}
+
+
+/* main-news */
+.main-news {
+  padding: 16px 0 18px;
+}
+.main-news h1 {
+  margin-bottom: 12px;
+}
+.main-news ul {
+  border: none;
+}
+.main-news li {
+  position: static;
+  padding: 0;
+  border: none;
+  text-align: center;
+}
+.main-news li .date {
+  position: static;
+  margin-top: 0;
+  padding-top: 18px;
+  padding-bottom: 3px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000;
+}
+.main-news li .date span {
+  position: static;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+}
+.main-news li strong {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+.main-news li a {
+  font-size: 12px;
+  line-height: 14px;
+  color: #BFBFBF;
+}
+
+
+
+
+/* view html style */
+/* view-gnb */
+#sub .sub-vis {
+  height: 141px;
+}
+#sub .sub-vis h2 {
+  font-size: 32px;
+}
+
+.lnbWrap {
+  padding: 10px 0;
+  text-align: center;
+}
+#lnb > li {
+  width: auto !important;
+}
+#lnb > li a {
+  padding: 0 15px;
+  line-height: 35px;
+  font-size: 15px;
+}
+#lnb > li.active a:after {
+  height: 0;
+}
+
+#sub #content {
+  margin: 110px auto 220px;
+  padding: 0 224px 0 77px;
+}
+.info-wrap {
+  display: flex;
+}
+.info-wrap .info-title {
+  margin-right: 28px;
+  min-width: 80px;
+  height: 20px;
+  border-right: 1px solid #BFBFBF;
+  color: #000;
+  font-weight: 700;
+}
+
+.view1-thumbnail {
+  background: url('../images/append/view1_thumbnail.jpg') no-repeat center center;
+  background-size: cover;
+}
+.view2-thumbnail {
+  background: url('../images/append/view2_thumbnail.jpg') no-repeat center center;
+  background-size: 70% 153%;
+}
+.production-thumbnail {
+  width: 100%;
+  height: 520px;
+  background-color: #000;
+}
+.production-title h1 {
+  margin-bottom: 110px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000;
+}
+.production-title h2 {
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+.production-info p,
+.production-staff p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BFBFBF;
+}
+.production-info p.multi-lines,
+.production-staff p.multi-lines {
+  margin-top: -10px;
+  line-height: 38px;
+}
+.staff-title strong {
+  padding-top: 20px;
+  color: #000;
+}
+
+#wrap .go-prdt-list {
+  margin-bottom: 90px;
+  padding: 5px 37px;
+  background: #E8E8E8;
+  border: none;
+  border-radius: 19px;
+  font-size: 20px;
+}
